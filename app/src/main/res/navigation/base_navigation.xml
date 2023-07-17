@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_navigation"
+    app:startDestination="@id/landingFragment">
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.LandingFragment"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing" >
+        <action
+            android:id="@+id/action_landingFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_FAQFragment"
+            app:destination="@id/FAQFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/FAQFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.FAQFragment"
+        android:label="fragment_f_a_q"
+        tools:layout="@layout/fragment_f_a_q" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_walletFragment"
+            app:destination="@id/walletFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_orderAndPayFragment"
+            app:destination="@id/orderAndPayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sendAndRequestFragment"
+            app:destination="@id/sendAndRequestFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_devicesFragment"
+            app:destination="@id/devicesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_checkSlotsFragment"
+            app:destination="@id/checkSlotsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_contactUsFragment"
+            app:destination="@id/contactUsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookSlotFragment"
+            app:destination="@id/bookSlotFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookToCollectFragment"
+            app:destination="@id/bookToCollectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_inboxFragment"
+            app:destination="@id/inboxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/orderAndPayFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.OrderAndPayFragment"
+        android:label="fragment_order_and_pay"
+        tools:layout="@layout/fragment_order_and_pay" />
+    <fragment
+        android:id="@+id/sendAndRequestFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.SendAndRequestFragment"
+        android:label="fragment_send_and_request"
+        tools:layout="@layout/fragment_send_and_request" />
+    <fragment
+        android:id="@+id/devicesFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.DevicesFragment"
+        android:label="fragment_devices"
+        tools:layout="@layout/fragment_devices" />
+    <fragment
+        android:id="@+id/checkSlotsFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.CheckSlotsFragment"
+        android:label="fragment_check_slots"
+        tools:layout="@layout/fragment_check_slots" />
+    <fragment
+        android:id="@+id/bookSlotFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.BookSlotFragment"
+        android:label="fragment_book_slot"
+        tools:layout="@layout/fragment_book_slot" />
+    <fragment
+        android:id="@+id/bookToCollectFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.BookToCollectFragment"
+        android:label="fragment_book_to_collect"
+        tools:layout="@layout/fragment_book_to_collect" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="ke.ac.tukenya.scit.seedclient.InboxFragment"
+        android:label="fragment_inbox"
+        tools:layout="@layout/fragment_inbox" />
+</navigation>
