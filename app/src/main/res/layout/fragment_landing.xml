@@ -1,7 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LandingFragment" />
+    android:background="#2A4454"
+    tools:context=".LandingFragment">
+
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="414dp"
+        android:layout_height="678dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rectangle_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/seed"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <TextView
+        android:id="@+id/are_you_a_n"
+        android:layout_width="258dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/are_you_a_n"
+        android:textAppearance="@style/are_you_a_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rec_d"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="134dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/tukexample_"
+        android:layout_width="247dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/tukexample_"
+        android:textAppearance="@style/tukexample_"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_2"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_c"
+        app:layout_constraintBottom_toBottomOf="@+id/are_you_a_n"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/example123_"
+        android:layout_width="198dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/example123_"
+        android:textAppearance="@style/example123_"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="rectangle_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

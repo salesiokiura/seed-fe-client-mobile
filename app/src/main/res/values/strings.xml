@@ -3,4 +3,85 @@
     <string name="btn_login">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--
+  Font family: Inter
+  Line height: 18sp
+  -->
+//forgot password styles
+    <!-- styles.xml -->
+    <style name="forgot_pass">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#0752FF</item>
+        <item name="android:centerX"></item>
+        <item name="android:centerY"></item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="forgot_pass">
+        Forgot Password?
+    </string>
+    <!-- login styles -->
+    <!--
+   Font family: Inter
+   Line height: 18sp
+   -->
+//signup styles
+    <!-- styles.xml -->
+    <style name="are_you_a_n">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="are_you_a_n">
+        Are you a new User? Sign up
+    </string>
+
+    <!--
+    Font family: Inter
+    Line height: 24sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="login">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="login">
+        Login
+    </string>
+    <!--
+   Font family: Inter
+   Line height: 18sp
+   -->
+
+    <!-- styles.xml -->
+    <style name="tukexample_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="tukexample_">
+        tukexample@gmail.com
+    </string>
+<!--password styles-->
+    <!--
+    Font family: Inter
+    Line height: 18sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="example123_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="example123_">
+        example123@
+    </string>
+
 </resources>
