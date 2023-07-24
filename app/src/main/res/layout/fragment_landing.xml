@@ -22,20 +22,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:contentDescription="TODO"
         android:src="@drawable/seed"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
-        android:contentDescription="TODO" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -136,8 +134,7 @@
         app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
         app:layout_constraintHorizontal_bias="0.386"
         app:layout_constraintStart_toStartOf="@+id/rectangle_2"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_2"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
 
     <View
         android:id="@+id/rectangle_3"
@@ -154,8 +151,8 @@
 
     <TextView
         android:id="@+id/example123_"
-        android:layout_width="198dp"
-        android:layout_height="32dp"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
@@ -163,10 +160,10 @@
         android:textAppearance="@style/example123_"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
-        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="@+id/rectangle_3"
         app:layout_constraintTop_toTopOf="@+id/rectangle_3"
-        app:layout_constraintVertical_bias="0.625" />
+        app:layout_constraintVertical_bias="0.428" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
@@ -174,6 +171,48 @@
         android:layout_height="wrap_content"
         app:barrierDirection="top"
         app:constraint_referenced_ids="rectangle_1" />
+
+    <View
+        android:id="@+id/image_4"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/em"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_2"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <View
+        android:id="@+id/image_3"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/lockicon"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <View
+        android:id="@+id/image_1"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/eyeicon"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+        app:layout_constraintVertical_bias="0.388" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
