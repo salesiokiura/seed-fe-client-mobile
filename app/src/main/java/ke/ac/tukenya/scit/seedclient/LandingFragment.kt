@@ -26,6 +26,7 @@ class LandingFragment : Fragment() {
             val image3: ImageView = view.findViewById(R.id.imageView10)
             val image4: ImageView = view.findViewById(R.id.imageView14)
             val image5: ImageView = view.findViewById(R.id.imageView15)
+            val image6: ImageView = view.findViewById(R.id.imageView12)
 
             image.setOnClickListener {
                 findNavController().navigate(R.id.action_landingFragment_to_loginFragment)
@@ -52,6 +53,10 @@ class LandingFragment : Fragment() {
             image5.setOnClickListener {
                 findNavController().navigate(R.id.action_landingFragment_to_infoFragment)
                 val fragment = InfoFragment()
+            }
+            image6.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_signupFragment)
+                val fragment = SignupFragment()
             }
             return view
         }
