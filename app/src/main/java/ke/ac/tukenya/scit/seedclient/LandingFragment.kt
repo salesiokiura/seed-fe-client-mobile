@@ -1,59 +1,61 @@
 package ke.ac.tukenya.scit.seedclient
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.SurfaceControl.Transaction
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [LandingFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class LandingFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_landing, container, false)
-    }
+        override fun onCreateView(
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
+        ): View? {
+            // Inflate the layout for this fragment
+            val view = inflater.inflate(R.layout.fragment_landing, container, false)
+            val image: ImageView = view.findViewById(R.id.imageView11)
+            val image1: ImageView = view.findViewById(R.id.imageView9)
+            val image2: ImageView = view.findViewById(R.id.imageView8)
+            val image3: ImageView = view.findViewById(R.id.imageView10)
+            val image4: ImageView = view.findViewById(R.id.imageView14)
+            val image5: ImageView = view.findViewById(R.id.imageView15)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment LandingFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            LandingFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+            image.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_loginFragment)
+                val fragment = LoginFragment()
+
+
             }
+            image1.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_contactUsFragment)
+                val fragment = ContactUsFragment()
+            }
+            image2.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_aboutUsFragment)
+                val fragment = AboutUsFragment()
+            }
+            image3.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_FAQFragment)
+                val fragment = AboutUsFragment()
+            }
+            image4.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_mapsFragment)
+                val fragment = MapsFragment()
+            }
+            image5.setOnClickListener {
+                findNavController().navigate(R.id.action_landingFragment_to_infoFragment)
+                val fragment = InfoFragment()
+            }
+            return view
+        }
+
     }
-}
+
+
