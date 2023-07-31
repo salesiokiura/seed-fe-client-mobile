@@ -7,7 +7,7 @@
   Font family: Inter
   Line height: 18sp
   -->
-//forgot password styles
+    //forgot password styles
     <!-- styles.xml -->
     <style name="forgot_pass">
         <item name="android:textSize">15sp</item>
@@ -25,7 +25,7 @@
    Font family: Inter
    Line height: 18sp
    -->
-//signup styles
+    //signup styles
     <!-- styles.xml -->
     <style name="are_you_a_n">
         <item name="android:textSize">15sp</item>
@@ -67,7 +67,7 @@
     <string name="tukexample_">
         tukexample@gmail.com
     </string>
-<!--password styles-->
+    <!--password styles-->
     <!--
     Font family: Inter
     Line height: 18sp
