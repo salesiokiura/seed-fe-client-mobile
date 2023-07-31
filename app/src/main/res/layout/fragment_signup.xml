@@ -8,19 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".SignupFragment">
 
+
     <View
         android:id="@+id/rectangle_1"
         android:layout_width="413dp"
-        android:layout_height="842dp"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="184dp"
         android:background="@drawable/rectangle_a"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/imageView2"
@@ -57,8 +57,8 @@
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_3"
         android:drawablePadding="10dp"
@@ -72,12 +72,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_4"
         android:drawablePadding="10dp"
@@ -95,8 +96,8 @@
         android:id="@+id/editTextPhone"
         android:layout_width="293dp"
         android:layout_height="66dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="388dp"
         android:drawableLeft="@drawable/img_5"
         android:drawablePadding="10dp"
         android:ems="10"
@@ -109,13 +110,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="484dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_6"
         android:drawableRight="@drawable/img_7"
@@ -127,13 +127,12 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_1"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/editTextTextPassword5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="72dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_6"
         android:drawableRight="@drawable/img_7"
@@ -145,13 +144,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="199dp"
         android:layout_height="55dp"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="608dp"
+        android:layout_marginTop="656dp"
         android:background="#2A4454"
         android:hint="SignUp"
         android:textColor="#953F82B5"
@@ -159,14 +157,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-
     <Switch
         android:id="@+id/switch1"
         android:layout_width="300dp"
         android:layout_height="61dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="676dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="732dp"
         android:background="@drawable/rectangle_c"
         android:text="Accept terms $ Conditions"
         android:textAlignment="viewEnd"
@@ -180,8 +176,8 @@
         android:id="@+id/textView2"
         android:layout_width="275dp"
         android:layout_height="36dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="760dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="828dp"
         android:hint="Already have an account?Login"
         android:textAlignment="center"
         android:textColorHint="@color/black"
@@ -190,14 +186,6 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
