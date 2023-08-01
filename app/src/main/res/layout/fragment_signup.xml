@@ -10,8 +10,8 @@
 
     <View
         android:id="@+id/rectangle_1"
-        android:layout_width="430dp"
-        android:layout_height="868dp"
+        android:layout_width="809dp"
+        android:layout_height="946dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="236dp"
@@ -34,12 +34,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="176dp"
         android:layout_height="47dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="168dp"
         android:text="SignUp"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -51,10 +52,10 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="296dp"
+        android:layout_width="349dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="304dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_3"
         android:drawablePadding="10dp"
@@ -68,13 +69,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="388dp"
+        android:layout_width="342dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="396dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_4"
         android:drawablePadding="10dp"
@@ -88,13 +88,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="293dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="484dp"
+        android:layout_width="341dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="496dp"
         android:drawableLeft="@drawable/img_5"
         android:drawablePadding="10dp"
         android:ems="10"
@@ -109,10 +108,10 @@
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="588dp"
+        android:layout_width="351dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="592dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_6"
         android:drawableRight="@drawable/img_7"
@@ -124,13 +123,12 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_1"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/editTextTextPassword5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="700dp"
-        android:layout_marginEnd="76dp"
+        android:layout_width="376dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="716dp"
+        android:layout_marginEnd="248dp"
         android:background="@drawable/rectangle_c"
         android:drawableLeft="@drawable/img_6"
         android:drawableRight="@drawable/img_7"
@@ -146,8 +144,8 @@
         android:id="@+id/button"
         android:layout_width="199dp"
         android:layout_height="55dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="808dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="812dp"
         android:background="#2A4454"
         android:hint="SignUp"
         android:textColor="#953F82B5"
@@ -155,13 +153,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Switch
         android:id="@+id/switch1"
-        android:layout_width="327dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="900dp"
+        android:layout_width="369dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="908dp"
         android:background="@drawable/rectangle_c"
         android:text="Accept terms $ Conditions"
         android:textAlignment="viewStart"
@@ -175,8 +172,8 @@
         android:id="@+id/textView2"
         android:layout_width="275dp"
         android:layout_height="36dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="1020dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="1032dp"
         android:hint="Already have an account?Login"
         android:textAlignment="center"
         android:textColorHint="@color/black"
