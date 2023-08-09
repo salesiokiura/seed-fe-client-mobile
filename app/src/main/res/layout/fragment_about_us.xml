@@ -23,8 +23,8 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="151dp"
-            android:layout_marginBottom="582dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="580dp"
             android:text="ABOUT US"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -45,13 +45,11 @@
             android:id="@+id/cardView"
             android:layout_width="374dp"
             android:layout_height="344dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="44dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="242dp">
 
             <TextView
                 android:id="@+id/textView3"
