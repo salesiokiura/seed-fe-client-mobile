@@ -130,16 +130,7 @@
         (identical to box height)
         -->
 
-    <!-- styles.xml -->
-    <style name="faqs">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">#000000</item>
-    </style>
 
-    <!-- strings.xml -->
-    <string name="faqs">
-        FAQs
-    </string>
 
     <!--
         Font family: Inter
@@ -156,4 +147,122 @@
     <string name="signup">
         SignUp
     </string>
+    />
+    <!--
+    Font family: Roboto
+    Line height: 15sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="full_map">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#0075FF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="full_map">
+FULL MAP
+</string>
+    <!--
+   Font family: Roboto
+   Line height: 18sp
+   -->
+
+    <!-- styles.xml -->
+    <style name="can_i_charg">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="can_i_charg">
+Can I charge more than one device at the same time?
+</string>
+    <!--
+   Font family: Roboto
+   Line height: 23sp
+   -->
+
+    <!-- styles.xml -->
+    <style name="q">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#629ACE</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="q">
+Q
+</string>
+    <!--
+    Font family: Roboto
+    Line height: 18sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="yes_you_can">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="yes_you_can">
+        Yes, you can book charging slots for more than one device.
+    </string>
+    <!--
+  Font family: Roboto
+  Line height: 23sp
+  -->
+
+    <!-- styles.xml -->
+    <style name="a">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#629ACE</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="a">
+       a
+    </string>
+
+    <!--
+    Font family: Roboto
+    Line height: 18sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="can_i_charged">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="can_i_charge">
+        Can I charge more than one device at the same time?
+    </string>
+
+    <!--
+  Font family: Roboto
+  Line height: 23sp
+  -->
+
+    <!-- styles.xml -->
+    <style name="faqs">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="faqs">
+        FAQS
+    </string>
+    <string name="holding_other_views">holding other views</string>
+    <!--
+    Font family: Roboto
+    Line height: 23sp
+    -->
+
+    <!-- styles.xml -->
+
+
+
 </resources>
