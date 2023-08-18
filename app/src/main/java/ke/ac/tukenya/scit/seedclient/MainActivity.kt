@@ -2,6 +2,7 @@ package ke.ac.tukenya.scit.seedclient
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.navigation.NavController
 import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
@@ -15,5 +16,5 @@ class MainActivity : AppCompatActivity() {
         val navHostFagment = supportFragmentManager
             .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         navController = navHostFagment.navController
-    }
+      }
 }
