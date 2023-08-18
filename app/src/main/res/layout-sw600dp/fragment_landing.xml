@@ -11,22 +11,22 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="224dp"
-        android:layout_height="208dp"
+        android:layout_width="455dp"
+        android:layout_height="284dp"
         android:src="@drawable/seedfull"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.3"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374"
+        app:layout_constraintVertical_bias="0.315"
         app:layout_constraintWidth_percent="0.5" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="95dp"
-        android:layout_height="87dp"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
         android:src="@drawable/groupf"
         app:layout_constraintBottom_toBottomOf="@+id/group_2"
         app:layout_constraintEnd_toEndOf="@+id/group_2"
@@ -37,8 +37,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="95dp"
-        android:layout_height="87dp"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
         android:src="@drawable/groupb"
         app:layout_constraintBottom_toBottomOf="@+id/group_6"
         app:layout_constraintEnd_toEndOf="@+id/group_6"
@@ -49,21 +49,21 @@
 
     <View
         android:id="@+id/group_3"
-        android:layout_width="119dp"
-        android:layout_height="107dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0.282"
         app:layout_constraintStart_toEndOf="@+id/group_2"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.594" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="95dp"
-        android:layout_height="87dp"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
         android:src="@drawable/groupc"
         app:layout_constraintBottom_toBottomOf="@+id/group_3"
         app:layout_constraintEnd_toEndOf="@+id/group_3"
@@ -74,44 +74,44 @@
 
     <View
         android:id="@+id/group_2"
-        android:layout_width="119dp"
-        android:layout_height="107dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.594" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="358dp"
-        android:layout_height="62dp"
+        android:layout_width="615dp"
+        android:layout_height="116dp"
         android:src="@drawable/rec_d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.692" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="358dp"
-        android:layout_height="62dp"
+        android:layout_width="615dp"
+        android:layout_height="116dp"
         android:src="@drawable/rec_d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.181" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="52dp"
-        android:layout_height="50dp"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
         android:src="@drawable/groupg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,42 +122,42 @@
 
     <View
         android:id="@+id/group_6"
-        android:layout_width="119dp"
-        android:layout_height="107dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toStartOf="@+id/group_2"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.594" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="63dp"
-        android:layout_height="52dp"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
         android:src="@drawable/grouph"
         app:layout_constraintEnd_toEndOf="@+id/group_8"
         app:layout_constraintTop_toTopOf="@+id/group_8" />
 
     <View
         android:id="@+id/group_8"
-        android:layout_width="57dp"
-        android:layout_height="52dp"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.216" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="34dp"
-        android:layout_height="34dp"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
         android:src="@drawable/imagea"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -168,24 +168,25 @@
 
     <TextView
         android:id="@+id/about_us"
-        android:layout_width="82dp"
-        android:layout_height="27dp"
+        android:layout_width="131dp"
+        android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/about_us"
+        android:textSize="26sp"
         android:textAppearance="@style/about_us"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.866" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
         android:src="@drawable/image_i"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
@@ -196,24 +197,24 @@
 
     <TextView
         android:id="@+id/contact_us"
-        android:layout_width="108dp"
-        android:layout_height="28dp"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/contact_us"
+        android:textSize="26sp"
         android:textAppearance="@style/contact_us"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.846" />
+        app:layout_constraintVertical_bias="0.904" />
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
         android:src="@drawable/image_j"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
@@ -224,45 +225,48 @@
 
     <TextView
         android:id="@+id/faqs"
-        android:layout_width="74dp"
-        android:layout_height="29dp"
+        android:layout_width="131dp"
+        android:layout_height="37dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/faqs"
         android:textAppearance="@style/faqs"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.936" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <TextView
         android:id="@+id/login"
-        android:layout_width="175dp"
-        android:layout_height="44dp"
+        android:layout_width="268dp"
+        android:layout_height="79dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/login"
         android:textAppearance="@style/login"
+        android:textSize="37sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.603" />
 
     <TextView
         android:id="@+id/signup"
-        android:layout_width="153dp"
-        android:layout_height="37dp"
+        android:layout_width="268dp"
+        android:layout_height="79dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/signup"
         android:textAppearance="@style/signup"
+        android:textSize="37sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
