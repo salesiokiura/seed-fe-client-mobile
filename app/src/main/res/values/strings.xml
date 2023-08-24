@@ -262,7 +262,452 @@ Q
     -->
 
     <!-- styles.xml -->
+    <!--
+       Font family: Roboto
+       Line height: 16sp
+       -->
 
+    <!-- styles.xml -->
+    <style name="charging_tr">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
 
+    <!-- strings.xml -->
+    <string name="charging_tr">
+        CHARGING TRANSACTIONS
+    </string>
+    <!--
+   Font family: Roboto
+   Line height: 16sp
+   -->
+
+    <!-- styles.xml -->
+    <style name="brian234_sa">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#B3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="brian234_sa">
+        Brian234  |  Samsung Galaxy A10
+    </string>
+
+    <!--
+      Font family: Roboto
+      Line height: 14sp
+      (identical to box height)
+      -->
+
+    <!-- styles.xml -->
+    <style name="charging_st">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="charging_st">
+        CHARGING STATUS
+    </string>
+
+    <!--
+        Font family: Roboto
+        Line height: 19sp
+        (identical to box height)
+        -->
+
+    <!-- styles.xml -->
+    <style name="percent">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#76D32D</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="percent">
+        28 %
+    </string>
+
+    <!--
+      Font family: Roboto
+      Line height: 14sp
+      (identical to box height)
+      -->
+
+    <!-- styles.xml -->
+    <style name="remaining_t">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="remaining_t">
+        REMAINING TIME
+    </string>
+
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       (identical to box height)
+       -->
+
+    <!-- styles.xml -->
+    <style name="welcome_bac">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A3FFFFFF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="welcome_bac">
+        Welcome Back
+    </string>
+
+    <!--
+    Font family: Roboto
+    Line height: 14sp
+    (identical to box height)
+    -->
+
+    <!-- styles.xml -->
+    <style name="brian234">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="brian234">
+        Brian234
+    </string>
+
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       (identical to box height)
+       -->
+
+    <!-- styles.xml -->
+    <style name="amount">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="amount">
+        AMOUNT
+    </string>
+
+    <!--
+   Font family: Roboto
+   Line height: 18sp
+   (identical to box height)
+   -->
+
+    <!-- styles.xml -->
+    <style name="hrs">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="hrs">
+        03 : 34 : 45 HRS
+    </string>
+    <!--
+  Font family: Roboto
+  Line height: 18sp
+  (identical to box height)
+  -->
+
+    <!-- styles.xml -->
+    <style name="ksh_110">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="ksh_110">
+        KSH. 110
+    </string>
+    <!--
+    Font family: Roboto
+    Line height: 14sp
+    (identical to box height)
+    -->
+
+    <!-- styles.xml -->
+    <style name="wallet">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="wallet">
+        Wallet
+    </string>
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       (identical to box height)
+       -->
+
+    <!-- styles.xml -->
+    <style name="order_pay">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="order_pay"><![CDATA[
+        Order & Pay
+    ]]></string>
+    <!--
+        Font family: Roboto
+        Line height: 14sp
+        (identical to box height)
+        -->
+
+    <!-- styles.xml -->
+    <style name="send_reques">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="send_reques"><![CDATA[
+        Send & Request
+    ]]></string>
+    <!--
+   Font family: Roboto
+   Line height: 14sp
+   (identical to box height)
+   -->
+
+    <!-- styles.xml -->
+    <style name="devices">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="devices">
+        Devices
+    </string>
+    <!--
+       Font family: Roboto
+       Line height: 16sp
+       -->
+
+    <!-- styles.xml -->
+    <style name="recent_paym">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="recent_paym">
+        RECENT PAYMENTS
+    </string>
+    <!--
+   Font family: Roboto
+   Line height: 18sp
+   (identical to box height)
+   -->
+
+    <!-- styles.xml -->
+    <style name="sa">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="sa">
+        SA
+    </string>
+    <!--
+  Font family: Roboto
+  Line height: 16sp
+  -->
+
+    <!-- styles.xml -->
+    <style name="s_e_e_d">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="s_e_e_d">
+        S E E D
+    </string>
+    <!--
+      Font family: Roboto
+      Line height: 16sp
+      -->
+
+    <!-- styles.xml -->
+    <style name="some_id_1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="some_id_1">
+        3880273
+    </string>
+    <!--
+       Font family: Roboto
+       Line height: 15sp
+       -->
+
+    <!-- styles.xml -->
+    <style name="see_all_1">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#0075FF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="see_all_1">
+        SEE ALL
+    </string>
+       <!--
+    Font family: Roboto
+    Line height: 15sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="see_all">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#0075FF</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="see_all">
+        SEE ALL
+    </string>
+    <!--
+  Font family: Roboto
+  Line height: 15sp
+  -->
+
+    <!-- styles.xml -->
+    <style name="ksh_200_00">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="ksh_200_00">
+        -KSH. 200.00
+    </string>
+    <!--
+       Font family: Roboto
+       Line height: 16sp
+       -->
+
+    <!-- styles.xml -->
+    <style name="services">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="services">
+        SERVICES
+    </string>
+
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       (identical to box height)
+       -->
+
+    <!-- styles.xml -->
+    <style name="check_slot">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="check_slot">
+        Check slot
+    </string>
+
+    <!--
+  Font family: Roboto
+  Line height: 14sp
+  (identical to box height)
+  -->
+
+    <!-- styles.xml -->
+    <style name="contact">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="contact">
+        Contact
+    </string>
+
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       (identical to box height)
+       -->
+
+    <!-- styles.xml -->
+    <style name="book_slot">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="book_slot">
+        Book Slot
+    </string>
+    <!--
+       Font family: Roboto
+       Line height: 14sp
+       -->
+
+    <!-- styles.xml -->
+    <style name="book_to_col">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="book_to_col">
+        Book  to Collect Device
+    </string>
+    <!--
+    Font family: Roboto
+    Line height: 15sp
+    -->
+
+    <!-- styles.xml -->
+    <style name="dec_03_20_p">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="dec_03_20_p">
+01 Dec, 03:20 PM
+</string>
+
+    <!--
+       Font family: Roboto
+       Line height: 16sp
+       -->
+
+    <!-- styles.xml -->
+    <style name="some_id">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A3000000</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="some_id">
+        3880273
+    </string>
 
 </resources>
