@@ -43,13 +43,18 @@ class LoginFragment : Fragment() {
         val imageL: ImageView = view.findViewById(R.id.imageView16)  // Assuming the ID is imageView16
         emailInput = view.findViewById(R.id.tukexample)
         passwordInput = view.findViewById(R.id.example123_)
+        passwordInput.transformationMethod = PasswordTransformationMethod.getInstance()  // This line is added
 
         val passwordToggle: ImageView = view.findViewById(R.id.imageView19)
         passwordToggle.setOnClickListener {
             if (passwordInput.transformationMethod is PasswordTransformationMethod) {
                 passwordInput.transformationMethod = HideReturnsTransformationMethod.getInstance()
+                // Optionally, change the ImageView to an 'eye closed' drawable to indicate password is now visible
+                passwordToggle.setImageResource(R.drawable.eyeicon)
             } else {
                 passwordInput.transformationMethod = PasswordTransformationMethod.getInstance()
+                // Optionally, change the ImageView to an 'eye open' drawable to indicate password is now hidden
+                passwordToggle.setImageResource(R.drawable.eyeicon)
             }
             passwordInput.setSelection(passwordInput.text.length)
         }
@@ -57,6 +62,7 @@ class LoginFragment : Fragment() {
         imageL.setOnClickListener {
             val email = emailInput.text.toString()
             val password = passwordInput.text.toString()
+            passwordInput.transformationMethod = PasswordTransformationMethod.getInstance()
 
             if (isInternetAvailable()) {
                 signIn(email, password)
@@ -99,14 +105,14 @@ class LoginFragment : Fragment() {
                         // This indicates the user does not exist
                         Toast.makeText(
                             context,
-                            "User doesn't exist. Please sign up first.",
+                            "Username Or password is incorrect",
                             Toast.LENGTH_SHORT
                         ).show()
                     } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
                         // This indicates the password is wrong for an existing user
                         Toast.makeText(
                             context,
-                            "Incorrect password. Please try again.",
+                            "Username or password is incorrect",
                             Toast.LENGTH_SHORT
                         ).show()
                     } else {

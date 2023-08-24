@@ -1,0 +1,16 @@
+
+<!-- drawable/green_minim.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="366dp"
+android:height="212dp"
+android:viewportWidth="366"
+android:viewportHeight="212"
+ >
+<group>
+<clip-path
+android:pathData="M10 0H356C361.523 0 366 4.47715 366 10V202C366 207.523 361.523 212 356 212H10C4.47715 212 0 207.523 0 202V10C0 4.47715 4.47715 0 10 0Z"
+/>
+</group>
+</vector>
