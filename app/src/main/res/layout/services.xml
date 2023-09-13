@@ -37,15 +37,15 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="406dp"
+        android:layout_height="100dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127"
+        app:layout_constraintVertical_bias="0.146"
         app:srcCompat="@drawable/group_1" />
 
     <ImageView
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321"
+        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/customercare" />
 
     <ImageView
@@ -71,6 +71,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253"
         app:srcCompat="@drawable/customercare" />
 
     <ImageView
@@ -80,10 +81,10 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746"
+        app:layout_constraintVertical_bias="0.771"
         app:srcCompat="@drawable/customercare" />
 
     <ImageView
@@ -137,15 +138,28 @@
 
     <ImageView
         android:id="@+id/imageView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintHorizontal_bias="0.618"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/current_load" />
+        app:srcCompat="@drawable/current_load"
+        tools:srcCompat="@drawable/services__2_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:text="Services"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
