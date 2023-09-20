@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="color/White-smoke"
+    android:background="color/dark-smoke"
     android:layout_height="match_parent">
 
 
@@ -37,15 +37,15 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="406dp"
-        android:layout_height="100dp"
+        android:layout_width="408dp"
+        android:layout_height="134dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146"
+        app:layout_constraintVertical_bias="0.117"
         app:srcCompat="@drawable/group_1" />
 
     <ImageView
@@ -68,10 +68,10 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253"
+        app:layout_constraintVertical_bias="0.299"
         app:srcCompat="@drawable/customercare" />
 
     <ImageView
