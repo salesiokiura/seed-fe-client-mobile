@@ -8,14 +8,14 @@
         android:fullBackupContent="@xml/backup_rules"
         android:label="Seed"
         android:icon="@drawable/seed"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:roundIcon="@drawable/seed"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SeedClient"
         tools:targetApi="31">
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyCJPNcw7RUrLF4lvHKHhLI_KM6jvjS1QcQ" />
 
         <activity android:name=".Splash"
             android:exported="true">
@@ -28,5 +28,10 @@
         <activity android:name=".MainActivity" />
         <!-- ...other activities... -->
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 </manifest>
